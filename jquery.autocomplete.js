@@ -1,4 +1,7 @@
 /**
+ * Forked from:
+ * */
+/**
  * @preserve jQuery Autocomplete plugin v1.2.6
  * @homepage http://xdsoft.net/jqplugins/autocomplete/
  * @license MIT - MIT-LICENSE.txt
@@ -1108,7 +1111,7 @@
 		} 
 	};
 	
-	$.fn.autocomplete = function(_options, _second, _third){
+	$.fn.autocompletelikegoogle = function(_options, _second, _third){
 		if ($.type(_options) === 'string' && publics[_options]) {
 			return publics[_options].call(this, _second, _third);
 		}
